@@ -28,6 +28,7 @@
         <field>trolley__Status__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
+    <name>Active Projects by Status</name>
     <reportType>trolley__Project__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
