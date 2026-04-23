@@ -1,19 +1,19 @@
 {
   "packageDirectories": [
     {
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
       "default": true,
-      "package": "sf-proj-one",
-      "versionDescription": ""
+      "package": "salesforce-one",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
-  "name": "sf-proj-one",
   "namespace": "trolley",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "66.0",
   "packageAliases": {
+    "salesforce-one": "0Hofj0000001akbCAA",
+    "salesforce-one@1.0.0-1": "04tfj000000I3VhAAK",
     "sf-proj-one": "0Hofj0000001ae9CAA",
     "sf-proj-one@0.1.0-1": "04tfj000000I397AAC",
     "sf-proj-one@0.1.0-2": "04tfj000000I3U5AAK"

@@ -1,6 +1,7 @@
 {
-  "orgName": "vermilion company",
+  "orgName": "Ada Test Scratch Org",
   "edition": "Developer",
+  "namespace": "trolley",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
