@@ -10,5 +10,9 @@
   ],
   "namespace": "trolley",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "66.0"
+  "sourceApiVersion": "66.0",
+  "packageAliases": {
+    "salesforce-one": "0Hofj0000001akbCAA",
+    "salesforce-one@1.0.0-1": "04tfj000000I3VhAAK"
+  }
 }
