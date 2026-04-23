@@ -29,7 +29,7 @@
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Active Projects by Status</name>
-    <reportType>Project__c</reportType>
+    <reportType>ProjectCRT</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
 </Report>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Project__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Standard report type for the Project object.</description>
+    <label>Projects</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Project Name</displayNameOverride>
+            <field>Name</field>
+            <table>Project__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Start Date</displayNameOverride>
+            <field>Start_Date__c</field>
+            <table>Project__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>End Date</displayNameOverride>
+            <field>End_Date__c</field>
+            <table>Project__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Status</displayNameOverride>
+            <field>Status__c</field>
+            <table>Project__c</table>
+        </columns>
+        <label>Project Fields</label>
+        <masterLabel>A</masterLabel>
+    </sections>
+</ReportType>
