@@ -1,0 +1,11 @@
+{
+  "orgName": "Ada Test Scratch Org",
+  "edition": "Developer",
+  "namespace": "trolley",
+  "features": [],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    }
+  }
+}

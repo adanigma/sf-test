@@ -4,19 +4,18 @@
         <field>NAME</field>
     </columns>
     <columns>
-        <field>Start_Date__c</field>
+        <field>trolley__Start_Date__c</field>
     </columns>
     <columns>
-        <field>End_Date__c</field>
+        <field>trolley__End_Date__c</field>
     </columns>
     <columns>
-        <field>Status__c</field>
+        <field>trolley__Status__c</field>
     </columns>
     <description>Shows all active projects grouped by status.</description>
     <filter>
-        <booleanFilter>1</booleanFilter>
         <criteriaItems>
-            <column>Status__c</column>
+            <column>trolley__Status__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
@@ -26,15 +25,10 @@
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Status__c</field>
+        <field>trolley__Status__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <label>Active Projects by Status</label>
-    <reportType>Project__c</reportType>
+    <reportType>trolley__Project__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
-    <timeFrameFilter>
-        <dateColumn>CREATED_DATE</dateColumn>
-        <interval>INTERVAL_CUSTOM</interval>
-    </timeFrameFilter>
 </Report>
