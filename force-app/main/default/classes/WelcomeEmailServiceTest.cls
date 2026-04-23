@@ -5,18 +5,20 @@ private class WelcomeEmailServiceTest {
     static void testEmailSentOnContactInsert() {
         Test.startTest();
         insert new Contact(FirstName = 'Jane', LastName = 'Doe', Email = 'jane.doe@example.com');
+        Integer invocations = Limits.getEmailInvocations();
         Test.stopTest();
 
-        System.assertEquals(1, Limits.getEmailInvocations(), 'Expected one email send call');
+        System.assertEquals(1, invocations, 'Expected one email send call');
     }
 
     @IsTest
     static void testNoEmailWhenMissingAddress() {
         Test.startTest();
         insert new Contact(FirstName = 'John', LastName = 'Smith');
+        Integer invocations = Limits.getEmailInvocations();
         Test.stopTest();
 
-        System.assertEquals(0, Limits.getEmailInvocations(), 'No email should be sent without an email address');
+        System.assertEquals(0, invocations, 'No email should be sent without an email address');
     }
 
     @IsTest
@@ -29,8 +31,9 @@ private class WelcomeEmailServiceTest {
 
         Test.startTest();
         WelcomeEmailService.sendWelcomeEmails(contacts);
+        Integer invocations = Limits.getEmailInvocations();
         Test.stopTest();
 
-        System.assertEquals(1, Limits.getEmailInvocations(), 'Expected one batched send call for multiple contacts');
+        System.assertEquals(1, invocations, 'Expected one batched send call for multiple contacts');
     }
 }
