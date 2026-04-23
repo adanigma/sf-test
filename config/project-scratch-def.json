@@ -2,10 +2,13 @@
   "orgName": "Ada Test Scratch Org",
   "edition": "Developer",
   "namespace": "trolley",
-  "features": [],
+  "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
     }
   }
 }
